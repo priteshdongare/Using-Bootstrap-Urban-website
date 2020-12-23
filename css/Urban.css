@@ -1,0 +1,243 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+/* navigation */
+.mean1{
+    width: 100%;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mean{
+    width: 100%;
+    padding: 0;
+}
+.navbar{
+    background: none;
+    border: 0;
+    margin-top: 15px;
+}
+.navbar .navbar-header{
+    width: 100%;
+}
+.navbar-header .navbar-brand{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.navbar-header .navbar-brand span{
+    color:#3498db;
+}
+.navbar-header .navbar-toggle{
+    cursor: pointer;
+    display: block;
+    border: 0;
+    background: none;
+}
+.navbar-header .navbar-toggle:hover{
+    background: none;
+}
+.navbar-header .navbar-toggle .icon-bar-left .icon-bar{
+    background-color: #ffffff;
+}
+.navbar-header .navbar-toggle{
+    width: 85px;
+    background: none;
+}
+.navbar-header .navbar-toggle h2 a{
+     font-size: 14px;
+     color: #ffffff;
+     margin: 0;
+     padding: 0;
+     float: right;
+     position: relative;
+     top: -20px;
+}
+.navbar-header .navbar-toggle .icon-bar-left{
+    float: left;
+}
+.collapse .nav li a{
+     color: #ffffff;
+}
+/* banner */
+.banner{
+    width: 100%;
+    padding: 250px 0px 200px 0px;
+    color: #ffffff;
+}
+.mean1 .con .banner .col .center1 h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.mean1 .con .banner .col .center1 p{
+    font-size: 19px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+.mean1 .con .banner .col .center1 button{
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#3498db;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+/* part2 */
+.mean2{
+    padding: 50px 0px 50px 0px;
+}
+.mean2 .img1 img{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #dbdbdb;
+}
+.mean2 .text1 h1{
+     font-size: 22px;
+     font-weight: 600;
+     margin-bottom: 25px;
+}
+.mean2 .text1 p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.mean2 .text1 button{
+    width: 150px;
+    height: 47px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:#3498db;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+/* part3 */
+.mean3{
+    width: 100%;
+    background-color: #3498db;
+    padding:50px 0px 50px 0px ;
+}
+.mean3 .img2 img{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+}
+.mean3 .text2 h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.mean3 .text2 p{
+   font-size: 14px;
+   color: #ffffff;
+   margin-bottom: 20px;
+}
+.mean3 .text2 button{
+   width: 150px;
+   height: 47px;
+   font-size: 18px;
+   color:#3498db;
+   background-color:#ffff;
+   margin-top: 30px;
+   border: 0;
+   border-radius:5px;
+}
+/* part4 */
+.center4 h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.center4 p{
+    font-size: 15px;
+    color:gray;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.part4{
+    margin-top: 50px;
+}
+.part4-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.part4-2 .div1{
+    width: 95%;
+}
+.part4-2 .div1 img{
+    width: 100%;
+    padding:5px;
+    border: 1px solid #dbdbdb;
+}
+.part4-2 .div1 p{
+   color: gray;
+   margin-top: 10px;
+   line-height: 25px;
+}
+.part4-2 .div1 button{
+    width:120px;
+    height:40px;
+    background-color: #3498db;
+    border: 0;
+    color: #ffffff;
+    font-size: 17px;
+}
+/* footer */
+.foot .icon{
+    font-size: 30px;
+    margin: 10px;
+    color: grey;
+    padding:10px;
+    border-radius: 50%;
+    border: 1px double #dbdbdb;
+}
+.foot p{
+    font-size:18px;
+    color: #dbdbdb;
+}
+@media only screen and (max-width:700px){
+    .collapse{
+        margin-left: 30px;
+    }
+    .mean1 .con .banner .col .center1 h1{
+        font-size: 45px;
+        
+    }
+    .mean1 .con .banner .col .center1 p{
+        font-size: 14px;
+        
+    }
+    .mean1 .con .banner .col .center1 button{
+        width: 140px;
+        font-size: 17px;
+    }
+    .mean2 .text1 h1,p{
+        text-align: center;
+    }
+    .mean2 .text1 button{
+        display: block;
+        margin:0 auto;
+    }
+    .mean3 .text2 h1,p{
+        text-align: center;
+    }
+    .mean3 .text2 button{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .part4-2 .div1{
+        margin-bottom: 40px;
+        border-bottom:2px solid #dbdbdb;
+    }
+    .part4-2 .div1 button{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
